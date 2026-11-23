@@ -1,0 +1,20 @@
+{
+  "name": "Kelime Kartı",
+  "short_name": "Kelime Kartı",
+  "description": "İngilizce–Türkçe yazmalı kelime kartları, aralıklı tekrar ve çevrimdışı sözlük.",
+  "lang": "tr",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef2f7",
+  "theme_color": "#13274a",
+  "categories": ["education"],
+  "icons": [
+    { "src": "simge/simge-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "simge/simge-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "simge/simge-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

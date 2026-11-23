@@ -1,0 +1,9 @@
+node_modules/
+masaustu/cikti/
+testler/ekran/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+araclar/son_kosu.log
+araclar/son_rapor.json

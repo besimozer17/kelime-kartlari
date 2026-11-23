@@ -1,0 +1,27 @@
+{
+  "name": "kelime-karti",
+  "productName": "Kelime Kartı",
+  "version": "1.0.0",
+  "description": "İngilizce–Türkçe yazmalı kelime kartları ve sözlük",
+  "author": "Kelime Kartı",
+  "license": "MIT",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "exe": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "app.kelimekarti.masaustu",
+    "productName": "Kelime Kartı",
+    "files": ["main.js", "package.json"],
+    "extraResources": [{ "from": "../site", "to": "site" }],
+    "directories": { "output": "cikti" },
+    "win": { "target": "portable", "icon": "../site/simge/simge-512.png" },
+    "portable": { "artifactName": "KelimeKarti.exe" }
+  }
+}
